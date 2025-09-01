@@ -1,0 +1,70 @@
+@font-face {
+    font-family: 'FOT-KurokaneStd-EB';
+    src: url('fonts/FOT-KurokaneStd-EB.otf');
+    font-weight: normal;
+    font-style: normal;
+}
+body {
+  font-family: "FOT-KurokaneStd-EB";
+  place-items: center;
+  background-image: url(Imagenes/azul_espirales.png);
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+button{
+  border: none;
+  background: none;
+  cursor: pointer;
+  -webkit-transition-duration: 0.4s;
+}
+h1{
+text-decoration: underline;
+}
+div {
+    place-items: center;
+    background-image: url(Imagenes/yokai_pad.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    position: center center;
+}
+img{
+ border-radius:5%;
+ height: auto;
+ position: center center;
+} 
+audio{
+ background: none;
+}
+.sombra{
+ box-shadow: 20px 20px 10px cyan;
+}
+select , input{
+ width: 50%;
+ height: 50%;
+}
+.fondo_diferente {
+  background-image: url(Imagenes/yokai_pad.jpg);
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+}
+.tamaño{
+  height: 5%;
+  width: 100%;
+}
+.Inicio_de_sesión{  
+  position: sticky;
+  top: 0;
+  background-color: cyan;
+  border: 2px solid #00c2b5;
+}
+iframe{
+ width: 640; 
+ height: 480;
+ margin: auto;
+ fixed-position: center center;
+}

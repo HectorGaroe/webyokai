@@ -1,0 +1,88 @@
+<!DOCTYPE HTML>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Estilos.css">
+    <link rel="icon" href="Imagenes/Icono watch.png">
+    <title>
+    Localizaciones
+    </title>
+    
+    
+    
+    
+    <button class="Inicio_de_sesión" popovertarget="messageInicio_sesión" popovertargetaction="toggle">"Inicio de sesión"</button>
+    <div id="messageInicio_sesión" popover style="place-items: center;">
+    <form action="" method="post">
+    <fieldset>
+      <legend>"Inicio de sesión:"</legend>
+      <label for="nombre">Nombre:</label>
+      <input class="tamaño" type="text" id="nombre" name="nombre"><br><br>
+      <label for="apellido">Apellido:</label>
+      <input class="tamaño" type="text" id="apellido" name="apellido"><br><br>
+      <label for="gmail">Gmail:</label>
+      <input class="tamaño" type="email" id="gmail" name="gmail"><br><br>
+      <label for="cumpleaños">Fecha de cumpleaños:</label>
+      <input class="tamaño" type="date" id="cumpleaños" name="cumpleaños"><br><br>
+      <input class="tamaño" type="submit" value="Submit">
+    </fieldset>
+    </form>
+    </div>
+    
+    <p>Al menú principal:</p>
+    <a href="Index.html"><img src="Imagenes/Boton Home.png"width="100" height="100"/></a>
+  </head>
+  <body>
+    <h1>Localizaciones destacadas</h1>
+    <p>Los yo-kai se encuentran en todas partes sin embargo no podemos verlos, a no ser que se posea un yo-kai watch(debajo una imagen)</p>
+    
+    <button class="button" onclick= "document.getElementById('audio').play()"><img src="Imagenes/yk watch.png" alt="Reloj"/></button>
+    <audio id= "audio" src="Sonidos/Searching Yo-kai.mp3"></audio>
+    
+    
+    <p>Sin embargo por razones que aún no se comprenden completamente a los yo-kai les encanta causar estragos y sucesos supuestamente inexplicables en la apacible ciudad de Floridablanca, Floridablanca se puede dividir en varias zonas:</p>
+    
+	  <img src= "Imagenes/Floridablanca zonas.png" alt="Floridablanca" usemap="#Localizaciones"/>
+    <map name="Localizaciones">
+      <button popovertarget="messageMArb" popovertargetaction="toggle"><area shape="poly" coords="57,6,116,7,162,41,182,41,224,71,222,147,174,218,146,295,73,304,14,231,50,7" alt="Monte Arboleda"></button>
+		  <div class="message" id="messageMArb" popover>
+        <p><strong>Monte Arboleda</strong></p>
+        <p>Es una zona al norte de Floridablanca. A excepción de la deslumbrante naturaleza del lugar, solo se puede destacar una curiosa especie de maquina expendedora al pie de un árbol en la cima del monte, se ha probado antes sacar algo pero lo unico que salió fue una roca en forma de capsula.</p>
+        <img class="img" src="Imagenes/MArb.png" alt="Monte Arboleda" width="400" height="400"/>
+		  </div>
+          
+      <button popovertarget="messageFN" popovertargetaction="toggle"><area shape="poly" coords="251,200,333,129,430,91,498,97,551,151,496,261,404,305" alt="Floridablanca Norte"></button>
+      <div class="message" id="messageFN" popover>
+        <p><strong>Floridablanca Norte</strong></p>
+        <p>El lugar se divide en varios barrios: la zona residencial, la avenida y el Parque Triángulo, la orilla del mar, el cruce de la panadería, el sendero de Arboleda y toda la parte del Colegio Floridablanca y la Guardería Pimpollos.</p>
+        <img class="img" src="Imagenes/FbN.png" alt="Floridablanca Norte" width="400" height="400"/>
+      </div>
+      
+      <button popovertarget="messageCF" popovertargetaction="toggle"><area shape="poly" coords="711,80,787,84,848,107,911,192,879,304,775,308,629,218,620,122,643,99" alt="Cumbres Floreadas"></button>
+      <div class="message" id="messageCF" popover>
+        <p><strong>Cumbres Floreadas</strong></p>
+        <p>Es una zona rural y con extremo contacto con la naturaleza. Aquí se encuentran puntos de mucho interés, tales como el Templo Shoten en donde se puede encontrar a un singular monje, o Segundos Relojes, el local del Sr. Buenavista un gran relojero que asegura haber trabajado con relojes de otro mundo, es todo un personaje.</p>
+        <img class="img" src="Imagenes/CFlor.png" alt="Cumbres Floreadas" width="500" height="400"/>
+      </div>
+          
+      <button popovertarget="messageFS" popovertargetaction="toggle"><area shape="poly" coords="141,341,296,410,296,504,194,573,117,573,10,503,11,414,43,362" alt="Floridablanca Sur"></button>
+      <div class="message" id="messageFS" popover>
+        <p><strong>Floridablanca Sur</strong></p>
+        <p>Es una de las zonas más fuertes a nivel comercial, turístico y costero. </p>
+        <img class="img" src="Imagenes/FbS.png" alt="Floridablanca Sur" width="500" height="500"/>
+      </div>
+      
+      <button popovertarget="messageZC" popovertargetaction="toggle"><area shape="poly" coords="421,401,624,489,517,577,460,572,320,493,313,468,367,416" alt="Zona comercial"></button>
+      <div class="message" id="messageZC" popover>
+        <p><strong>Zona Comercial</strong></p>
+        <p>Como su nombre indica, tiene gran cantidad de comercio, teniendo una calle, la Calle del Comercio, repleta de comida para comprar. Esta es el lugar más pequeño de Floridablanca</p>
+        <img class="img" src="Imagenes/ZCom.png" alt="Zona Comercial" width="400" height="500"/>
+      </div>
+      
+      <button popovertarget="message" popovertargetaction="toggle"><area shape="poly" coords="781,323,908,379,929,484,936,559,786,575,745,575,728,517,738,450,665,392,671,367" alt="Colinas del Aura"></button>
+      <div class="message" id="message" popover><p>Página sin terminar</p><img class="img" src="Imagenes/Uraraka pet.gif" width="450" height="450">
+      </div>
+          
+    </map>
+  </body>
+</html>

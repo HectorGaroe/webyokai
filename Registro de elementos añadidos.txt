@@ -1,0 +1,46 @@
+				Primera entrega:
+-fondo(en Estilos)
+-fuente de letra personalizada
+-aplicación de la fuente
+-botón de música(aunque no se puede apagar)
+-inserción de videos
+
+			    -**Mapa de imágenes**-
+
+
+
+				Segunda entrega:
+		he movido el mapa de imagenes de el Index a Mapas
+
+
+-Subrayado de los títulos (los h1)
+-Un Favicon(en el head de todas las páginas)
+
+-Una imagen que al ser clicada reproduce un sonido sin usar java script (al hacer click en el fantasma del Index)
+
+-Un botón que al ser presionado reproduce un sonido (en la página Mapas, el reloj)
+
+-Poner el fondo del botón transparente (esto por si acaso te lo pregunté en clase y me diste el visto bueno de que contara como algo independiente del propio botón)
+
+
+
+-**Añadido de una página de música, donde se encuentran los reproductores de audio**
+
+				Tercera entrega:
+
+-Imagen que al cambiar el tamaño de la pantalla pasa a ser otra imagen
+-Pop ups al hacer click en partes incompletas(en Index) y en el mapa de imagenes (en Mapas), aprieta escape para salir de los pop ups
+-Web ahora es responsive(la linea de codigo que lo hace posible esta en el head)
+-Las imagenes ahora tienen bordes redondeados(el codigo esta en Estilos y se aplica a todas las imagenes solo que no se notará en todas)
+-He añadido sombra de imagen a una imagen del Index(el codigo se encuentra en Estilos y lo hago identificando la imagen a la que quiero que se le aplique con el id sombra)
+
+-**Tambien he añadido el formulario y el menu desplegable**
+
+				Ultima entrega:
+-He añadido un botón que te sigue con el sticky y que al hacer click abre un pop up con un formulario rellenable [[no es funcional]](en todas las páginas)
+-
+-
+-
+-**En el menú desplegable de la anterior entrega he hecho que cuando la página se inicie la opción Nota esté seleccionada y que se puedan elegir más de una opción, he englobado los dos formularios del final del Index y he añadido una legend en este y en otro fieldset(el  otro fieldset es el de Inicio de sesión)**
+-**He hecho que la imagen de fondo sea responsive y que sea pantalla completa**
+

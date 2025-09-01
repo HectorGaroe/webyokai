@@ -1,0 +1,124 @@
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link rel="stylesheet" href="Estilos.css">
+      <link rel="icon" href="Imagenes/Icono watch.png">
+      <title>
+      Inicio web Yo-kai
+      </title>
+  </head>
+  <body>
+    <button class="Inicio_de_sesión" popovertarget="messageInicio_sesión" popovertargetaction="toggle">"Inicio de sesión"</button>
+    <div id="messageInicio_sesión" popover style="place-items: center;">
+    <form action="" method="post">
+    <fieldset>
+      <legend>"Inicio de sesión:"</legend>
+      <label for="nombre">Nombre:</label>
+      <input class="tamaño" type="text" id="nombre" name="nombre"><br><br>
+      <label for="apellido">Apellido:</label>
+      <input class="tamaño" type="text" id="apellido" name="apellido"><br><br>
+      <label for="gmail">Gmail:</label>
+      <input class="tamaño" type="email" id="gmail" name="gmail"><br><br>
+      <label for="cumpleaños">Fecha de cumpleaños:</label>
+      <input class="tamaño" type="date" id="cumpleaños" name="cumpleaños"><br><br>
+      <input class="tamaño" type="submit" value="Submit">
+    </fieldset>
+    </form>
+    </div>
+
+    <h1>Selecciona el menu:</h1>
+
+    <img src= "Imagenes/whisper.png" alt="mejor mayordomo" width="300" height="300" onclick="document.getElementById('audio').play()"/>
+    <audio id= "audio" src="Sonidos/Corporeo amigo.mp3"></audio>
+    <a href="Mapas.html"><img class="sombra" src= "Imagenes/Floridablanca.png" alt="Floridablanca" width="400" height="300"/></a>
+
+    <button popovertarget="messageIndex" popovertargetaction="toggle"><img src= "Imagenes/Personilla.png" alt="Personajes" width="150" height="150"/></button>
+    
+
+    <button popovertarget="messageIndex" popovertargetaction="toggle"><img src= "Imagenes/Quests.png" alt="Misiones" width="150" height="150"/></button>
+    <div id="messageIndex" popover style="place-items: center:center">
+        <center><p>Página sin terminar, siento las molestias</p><img src="Imagenes/Komasan estrellin.gif"></center>
+    </div>
+    
+    
+    <a href="Lista yo-kai.html"><img src= "Imagenes/Medalium Index.png" alt="Medalium" width="150" height="150"/></a>
+    
+    
+    <h3>Algún episodio y muestras de la musica del maravilloso Soundtrack de esta franquicia:</h3>
+    <center>
+        <a href="Serie.html"><img src="Imagenes/Movies.png" alt="Icono Episodios" width="100" height="100" /></a>
+        <a href="Música.html"><img src="Imagenes/Música.png" alt="Icono Música" width="100" height="100" /></a>
+    </center>
+    <br>
+
+    
+    <div style="background: none;">
+      <picture>
+        <source media="(min-width:1800px)" srcset="Imagenes/whisper.png" height="50%" width="50%">
+        <source media="(min-width:1600px)" srcset="Imagenes/Medalium.jpg">
+        <img src="Imagenes/Uraraka pet.gif" style="width:auto;">
+      </picture>
+    </div> 
+    
+    
+    <fieldset>
+    <legend><h1>Formularios</h1></legend>
+      <form method="post">
+      <table>
+        <tr>
+            <td class="arriba"><h2>¿Cuál dirias que es tu Yokai favorito?</h2></td>
+            <tr>
+                <td>
+                    <input type="checkbox" name="Komasan" value="Komasan" id="Komasan">
+                    <label for="Komasan">
+                        Komasan<br><img src="Imagenes/Komasan.png" height="75%" width="75%" />
+                    </label>
+                    <br>
+                    <input type="checkbox" name="noko" value="Noko" id="noko">
+                    <label for="noko">
+                        Noko<br><img src="Imagenes/Noko.gif"/>
+                    </label>
+                    <br>
+                    <input type="checkbox" name="otro" value="Otro" id="otro">Otro
+                    <center>
+                        <label for="pie">
+                            <br><img src="Imagenes/otro.png" height="20%" width="20%" />
+                        </label>
+                    </center>
+
+                </td>
+              <td>
+              <input type="checkbox" name="Jibanyan" value="Jibanyan" id="Jibanyan">
+              <label for="Jibanyan">Jibanyan<br><img class="formulario" src="Imagenes/Jibanyan patas.png" height="20%" width="50%"/>
+              </label>
+              <br>
+              <input type="checkbox" name="fristina" value="Fristina" id="fristina">
+              <label for="Fristina">Fristina<br><img src="Imagenes/Fristina.png" height="30%" width="30%"/>
+              </label>
+              </td>
+            </tr>
+        </tr>
+        
+        <td><h2>¿Cual o cuales dirias que son los mejores juegos de yokai?<h2></td>
+        <tr><td>
+        <select name="Juego" multiple>
+            <option value="" selected>
+                No he jugado ninguno &#128532;
+            </option>
+            <option value="1">Yo kai watch
+            </option>
+            <option value="2">Yo kai watch 2
+            </option>
+            <option value="3">Yo kai watch 3
+            </option>
+            <option value="4">Yo kai watch 4
+            </option>
+        </select>
+        </td></tr>
+        <td><input type="submit" name="ok" value="Enviar"></td>
+      </table>
+      </form>
+    </fieldset>
+  </body>
+    
+</html>
